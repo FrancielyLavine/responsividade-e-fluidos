@@ -2,6 +2,8 @@
     width: 200px;
     height: 320px;
 
+    margin: 0.5rem;
+
     display: flex;
     align-items: flex-end;
 
@@ -11,7 +13,14 @@
 
     cursor: pointer;
 
+    opacity: 0.9;
 
+
+}
+
+.container-card:hover {
+    transform: scale(1.1);
+    opacity: 1;
 }
 
 .container-title {
@@ -30,11 +39,24 @@
     color: #ffffff;
 }
 
-.container-title h1{
-    margin: 0 10px;
-    font-size: 20px;
+.container-title h1 {
+    margin: 0 1rem;
+
+    font-size: 2rem;
 
     overflow: hidden;
     text-overflow: ellipsis;
 
+}
+
+@media (max-windth: 768px) {
+    .container-card {
+        width: 280px;
+        height: 420px;
+    }
+
+    .container-card:hover {
+        transform: scale(1);
+        opacity: 0.9;
+    }
 }
