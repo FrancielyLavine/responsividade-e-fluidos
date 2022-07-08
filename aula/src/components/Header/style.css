@@ -1,0 +1,18 @@
+header{
+    height: 144px;
+    
+    margin-bottom: 32px;
+    padding: 0px 32px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    color: #ffffff;
+}
+
+.logo {
+    width: 180px;
+
+    cursor: pointer;
+}

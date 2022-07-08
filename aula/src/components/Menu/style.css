@@ -1,0 +1,16 @@
+.menu {
+    display: flex;
+
+    color: #ffffff;
+}
+
+.menu li{
+    margin-left: 10px;
+
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu li:hover{
+    color: #fed530;
+}
